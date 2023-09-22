@@ -1,4 +1,4 @@
-_import sys;
+import sys;
 
 # hello world 
 62626
