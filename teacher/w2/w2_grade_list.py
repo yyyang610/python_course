@@ -26,21 +26,3 @@ print('姓名\t國文\t英文\t數學\t理化\t總分\t平均\t名次')
 print('------------------------------------------------------------')
 
 
-
-for i in range(len(grade_list)):
-    grade_list[i][5]=grade_list[i][1]+grade_list[i][2]+grade_list[i][3]+grade_list[i][4]
-    grade_list[i][6]=grade_list[i][5]/4
-    
-sort_data = sorted(grade_list, key=lambda x: x[6])
-
-for i in range(len(sort_data)):
-    for j in range(len(grade_list)):
-        if(sort_data[i][6]==grade_list[j][6]):
-            grade_list[j][7]=i+1
-
-
-for i in range(len(grade_list)):
-    print(grade_list[i][0], end='\t')
-    for j in range(1, len(grade_list[i])):
-        print(grade_list[i][j], end='\t')
-    print()
