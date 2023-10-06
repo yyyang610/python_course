@@ -1,0 +1,51 @@
+w2_lambda.py
+  0           0 RESUME                   0
+
+  4           2 LOAD_CONST               0 (<code object <lambda> at 0x000002D4C8AF7EC0, file "w2_lambda.py", line 4>)
+              4 MAKE_FUNCTION            0
+              6 STORE_NAME               0 (x)
+
+  6           8 LOAD_CONST               1 (<code object add_10 at 0x000002D4C8B6C030, file "w2_lambda.py", line 6>)
+             10 MAKE_FUNCTION            0
+             12 STORE_NAME               1 (add_10)
+
+  9          14 PUSH_NULL
+             16 LOAD_NAME                2 (print)
+             18 LOAD_CONST               2 ('lambda:')
+             20 PUSH_NULL
+             22 LOAD_NAME                0 (x)
+             24 LOAD_CONST               3 (5)
+             26 PRECALL                  1
+             30 CALL                     1
+             40 PRECALL                  2
+             44 CALL                     2
+             54 POP_TOP
+
+ 11          56 PUSH_NULL
+             58 LOAD_NAME                2 (print)
+             60 LOAD_CONST               4 ('function:')
+             62 PUSH_NULL
+             64 LOAD_NAME                1 (add_10)
+             66 LOAD_CONST               3 (5)
+             68 PRECALL                  1
+             72 CALL                     1
+             82 PRECALL                  2
+             86 CALL                     2
+             96 POP_TOP
+             98 LOAD_CONST               5 (None)
+            100 RETURN_VALUE
+
+Disassembly of <code object <lambda> at 0x000002D4C8AF7EC0, file "w2_lambda.py", line 4>:
+  4           0 RESUME                   0
+              2 LOAD_FAST                0 (a)
+              4 LOAD_CONST               1 (10)
+              6 BINARY_OP                0 (+)
+             10 RETURN_VALUE
+
+Disassembly of <code object add_10 at 0x000002D4C8B6C030, file "w2_lambda.py", line 6>:
+  6           0 RESUME                   0
+
+  7           2 LOAD_FAST                0 (a)
+              4 LOAD_CONST               1 (10)
+              6 BINARY_OP                0 (+)
+             10 RETURN_VALUE
