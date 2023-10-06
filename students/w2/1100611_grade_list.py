@@ -29,7 +29,7 @@ sum=0
 aver=0
 sort=0
 max=0
-count=1
+count=height
 test=0
 
   
@@ -47,9 +47,9 @@ for i in range(height):
 for i in range(height):     
     for n in range(height):
         if grade_list[i][5]<grade_list[n][5]:
-            count=count+1
+            count=count-1
         grade_list[i][7]=count
-    count=1
+    count=height
 
 #列印所有資訊
 print('姓名\t國文\t英文\t數學\t理化\t總分\t平均\t名次')
