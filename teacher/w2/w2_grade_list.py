@@ -23,8 +23,25 @@ grade_list = [['John', 72, 88, 88, 84, 0, 0, 0],
 
 print('姓名\t國文\t英文\t數學\t理化\t總分\t平均\t名次')
 print('------------------------------------------------------------')
+#總分、平均
 for i in range(len(grade_list)):
-    print(grade_list[i][0], end='\t')
-    for j in range(1, len(grade_list[i])):
-        print(grade_list[i][j], end='\t')
+    sum=0
+    for j in range(1,5):
+        sum+=grade_list[i][j]
+    grade_list[i][5]=sum
+    grade_list[i][6]=sum/4
+
+#名次
+A=[]
+B=[]
+for i in range(len(grade_list)):
+    A.append(grade_list[i][5])
+A.sort()
+
+for i in range(len(grade_list)):
+    grade_list[i][7]=len(grade_list)-A.index(grade_list[i][5])
+
+for i in range(len(grade_list)):
+    for j in range(8):
+        print(grade_list[i][j],end='\t')
     print()
