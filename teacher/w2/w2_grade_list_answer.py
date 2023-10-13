@@ -32,7 +32,7 @@ for i in range(len(grade_list)):
 
 
 grade_list_sort = sorted(grade_list, key=lambda x: x[5])
-#print(grade_list_sort)
+print(grade_list_sort)
 
 for i in range(len(grade_list_sort)):    
     for j in range(1, len(grade_list_sort[i])):
