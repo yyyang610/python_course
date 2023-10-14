@@ -5,6 +5,7 @@ import openpyxl
 excel_file_path = 'C:/Users/julia/OneDrive/桌面/python_course/teacher/w3/grade_list.xlsx'
 workbook = openpyxl.load_workbook(excel_file_path)
 
+
 sheet_names = workbook.sheetnames
 sheet_name=sheet_names[0]
 print("Sheet names:", sheet_names)
@@ -43,7 +44,7 @@ for i in range(1,len(cell_values_2d)):
 for i in range(len(cell_values_2d)):
     for j in range(8):
         print(cell_values_2d[i][j],end='\t')
-    print()
+    print() #印出來
 
 
 
