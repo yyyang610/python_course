@@ -31,12 +31,11 @@ for i in range(len(grade_list)):
     grade_list[i][6] = grade_list[i][5] / 4
 
 
-grade_list_sort = sorted(grade_list, key=lambda x: x[5])
-#print(grade_list_sort)
+grade_list_sort = sorted(grade_list, key=lambda x: x[5],reverse=True)
+print(grade_list_sort)
 
 for i in range(len(grade_list_sort)):    
-    for j in range(1, len(grade_list_sort[i])):
-        grade_list_sort[i][7]=i+1
+    grade_list_sort[i][7]=i+1
         
 
 print('姓名\t國文\t英文\t數學\t理化\t總分\t平均\t名次')
