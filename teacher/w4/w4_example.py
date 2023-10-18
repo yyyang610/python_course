@@ -1,3 +1,4 @@
+#pip install gspread oauth2client
 import gspread
 
 gc = gspread.service_account(filename='python_course_access_cred.json')
