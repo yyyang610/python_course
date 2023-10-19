@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hello-world-343103",
+  "private_key_id": "4d3268e06d62e3e91ff0ef85c323c14930526163",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9DIpwODDFlBYp\nuVUlE9Esofy1M4RDUygqDTYIBAU6l3HXhjQChkPkL+Y0BHlh3MbUppHuasNnwuBl\nMJMrd+t0DrC9II41Z20KdcW4MAW35ycS17Vrn3UpO6i1lwBd7S9maYTgYZMh1BGx\nlsG+kcFUo9OBm6QpvZEFeP6P0U8EBr9hEfNovruZ6J5CNqcfyEaHaronT/8p+otP\nF4ktPHR7IeLYi2xBAfSHTuzzuGvqo6Z/XiUnYT4Z0Eheh/P+9t42GUGPH0g0XRNc\nuZ6qW590u4oVY2mdZB6zBBxNaYgrqwp0R11+CPcVuiIHmYovZ8Rd72IdjEs4TlWU\nci8oFVo5AgMBAAECggEAC4ULnIn4AtoivZkjBJbgDKm0RfBlM1sKXAGhFLz1+puG\n3ty5J5w539pBW1MYeGulHAkoZFBSJuz7kn7ywNfWW6SXhXbJ45wxS01g5nfaqVmn\nCmFllzDIyWHuxl30skSFOmbcp3WaqxmKmHk4xh2Im9k9xqyOxNJd12kHjgjxmSub\nCxhdkVKUdH6xlpb4cI8FZPV4NpW2IytDuKbNgPSpKQ5WvIGNIe0IW7F135liIHvh\nLfxiNMwC0IQuwx3AhMNi9X4/i8nMWSK4NMLEuOajlpWXu2v+o1VecpEWzOYO3YhL\n6XB/ifb9VQADNUennIGtBbX/7XDdEKnhdFunYsBbQQKBgQD7HE/L/TqOTlOsFHt+\ngRQmkisjSvqgJUhjSTpbhoSCDpeElI3RBWoYS5songDWieVTVmZR6pJn6tuSZBOP\nhWHJ3y3ls3G+QB8zBUf7PB5hgVXuQGKuH1B8xojI3hvL0kzSoiIg3lwbSlFHUz4U\ncqLz5iWoBjZYs9eAUBfKUFAQSQKBgQDAuuBN93I99SC4Rj9Ghc05gTqDmAkKePy3\nbedL/O2YP2EQ/3oWeXmmJZkQMsOOdpIM6RWOom5igXVJNNpHBKFfipspeEtaxxNz\nE8iYx0nvcN6FXNM276MD+aceGdRvCJ5TZxCxXBuMJVNdtvZXsbl3TmhHmtvcTbkD\nV7SjD+DacQKBgQDohQ3K2QA4t4S5CfpUaJfNI3o4YvxyADPoY+1axNO8TmC1Do3H\nJ9lXB+Nzl+M0xVmJcq6qWagZ+5o4Et0d/6dOM4+fbCr9vQhmyRQfKksDhKyaQhpe\nG3b/IyOTxD8+28vxGtq5Ts1BI+7hOc55RrFnYQwrax01w8nf8colt3p7qQKBgGV4\nvqouEucODYkX6y6tOc0B/hXU0UXDR4MoCTRX2ZxkGi4B5Hy6vlK8zubZY165jNHh\nUmlDmgyhDmhZvGbRyEjuSB1AaaRE1jerfdz6aDH54h6jLc1pxBFOuy88+Dzxc7KD\nvCU1UoeqC0d3EiI/v19SV9MDdKh7/2IEJmYH8SHxAoGBAOhFLPwNiIzcn7GLXXEo\nLrdrtXp2FOFzplWvCMmE6O9UuZWgMseDeQCUzBNBhJ+sFXJT1WXdXzNld4li5SKR\nEyAdX8qqV1V4I7bKo6Oc5YsNJKhdxpRhSVMMthpucRR+i3EzsvNgU+C2/Fjfb2so\nbwSSbas/Vgvglg9Qkqk147Ox\n-----END PRIVATE KEY-----\n",
+  "client_email": "python-course@hello-world-343103.iam.gserviceaccount.com",
+  "client_id": "100664763111074991998",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/python-course%40hello-world-343103.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
