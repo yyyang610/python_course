@@ -35,7 +35,7 @@ for i in range(len(grade_list)):
         print(grade_list[i][j], end='\t')
     print()
 
-print("---------")
+print("----")
 print("OOP")
 
 class Account:
